@@ -2245,9 +2245,19 @@ input, select, textarea {
 				background-position: center center;
 			}
 
-			#main > section.one {
+			/* #main > section.one {
 				background-color: #81918E;
 				background-image: url("../../images/banner.jpg");
+			} */
+
+			#myVideo {
+				width: 100%;
+				position: absolute;
+				left: 0;
+				bottom: 100px;
+				min-width: 100%;
+				min-height: 100%;
+				z-index: -1;
 			}
 
 			#main > section.two {
