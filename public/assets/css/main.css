@@ -1763,6 +1763,7 @@ input, select, textarea {
 			.image.avatar48 img {
 				width: 48px;
 				height: 48px;
+				background-color: lightslategray;
 			}
 
 		.image.fit {
@@ -1948,8 +1949,9 @@ input, select, textarea {
 		color: #fff !important;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #8ebebc;
+		background-color: silver;
 		border: 0;
+		opacity: .8;
 		cursor: pointer;
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
 		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
